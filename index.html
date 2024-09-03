@@ -7,14 +7,17 @@
     <title>Analytics</title>
 </head>
 <body class="container">
+
+    <!-- Первый блок -->
+
     <section class="intro-analytics">
-        <div class="wrap">
+        <div class="wrap wrap-padding">
             <header class="header">
                 <a href="#" class="header__logo">
                     <img src="/assets/icon/logo.svg" alt="logo">
                     <p>Analytics</p>
                 </a>
-                <nav class="header__menu">
+                <nav class="header__menu header__menu--adaptive">
                     <ul class="header__menu-list">
                         <li class="header__menu-item"><a href="#">Products</a></li>
                         <li class="header__menu-item"><a href="#">Pricing</a></li>
@@ -28,7 +31,6 @@
                     <button class="header__btn--circled">Sign Up</button>
                 </div>
             </header>
-
             <div class="dashboard">
                 <div class="dashboard__info">
                     <h1 class="dashboard__title">Monitor your business on real-time dashboard</h1>
@@ -44,29 +46,27 @@
         </div>
     </section>
 
+    <!-- Второй блок -->
+
     <section class="main-features wrap">
         <h2 class="main-features__title">Main Features</h2>
         <p class="main-features__text-block"></p>
-        <div class="main-features-advantages">
-            <div class="main-features-advantage-item">
+        <div class="main-features__advantages">
+            <div class="main-features__advantage-item">
                 <img src="./assets/icon/monitoring.svg" alt="Monitoring" class="main-features-advantage-icon"></img>
                 <h3 class="main-features-advantage-title">Monitoring 24/7</h3>
                 <p class="main-features-advantage-desc">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic iste, itaque quaerat repellendus earum maiores, repellat, odio corporis excepturi saepe eos blanditiis quis accusantium quisquam. Quis officia recusandae accusamus quidem.
                 </p>
             </div>
-        </div>
-        <div class="main-features-advantages">
-            <div class="main-features-advantage-item">
+            <div class="main-features__advantage-item">
                 <img src="./assets/icon/widgets.svg" alt="Widget" class="main-features-advantage-icon"></img>
                 <h3 class="main-features-advantage-title">Widget System</h3>
                 <p class="main-features-advantage-desc">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic iste, itaque quaerat repellendus earum maiores, repellat, odio corporis excepturi saepe eos blanditiis quis accusantium quisquam. Quis officia recusandae accusamus quidem.
                 </p>
             </div>
-        </div>
-        <div class="main-features-advantages">
-            <div class="main-features-advantage-item">
+            <div class="main-features__advantage-item">
                 <img src="./assets/icon/performance.svg" alt="Perfomance" class="main-features-advantage-icon"></img>
                 <h3 class="main-features-advantage-title">Best Perfomance</h3>
                 <p class="main-features-advantage-desc">
@@ -75,6 +75,109 @@
             </div>
         </div>
     </section>
+
+    <!-- Третий блок -->
+
+    <section>
+        <div class="roadmap wrap">
+            <div class="roadmap__item">
+                <div class="roadmap__description">
+                    <h3 class="roadmap__title">Automated Reports & Widget Alerts</h3>
+                    <p class="roadmap__text-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores sit nulla molestiae esse dicta magnam suscipit a nihil eos! Nihil optio eius laboriosam labore ad non fugit architecto explicabo.</p>
+                </div>
+                <div class="roadmap__picture">
+                    <img src="./assets/img/screen-01.png" alt="picture roadmap">
+                </div>
+            </div>
+            <div class="roadmap__item roadmap__item--right">
+                <div class="roadmap__description">
+                    <h3 class="roadmap__title">Fully customizable to address your needs</h3>
+                    <p class="roadmap__text-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores sit nulla molestiae esse dicta magnam suscipit a nihil eos! Nihil optio eius laboriosam labore ad non fugit architecto explicabo.</p>
+                </div>
+                <div class="roadmap__picture">
+                    <img src="./assets/img/screen-02.png" alt="picture roadmap">
+                </div>
+            </div>
+            <div class="roadmap__item">
+                <div class="roadmap__description">
+                    <h3 class="roadmap__title">Pre-build Dashboard Templates</h3>
+                    <p class="roadmap__text-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores sit nulla molestiae esse dicta magnam suscipit a nihil eos! Nihil optio eius laboriosam labore ad non fugit architecto explicabo.</p>
+                </div>
+                <div class="roadmap__picture">
+                    <img src="./assets/img/screen-03.png" alt="picture roadmap">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Четвертый блок -->
+
+    <section class="pricing-plans">
+        <div class="wrap">
+            <div class="pricing-plans__description">
+                <h3 class="pricing-plans__title">Pricing Plans</h3>
+                <p class="pricing-plans__text-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsam ratione qui a soluta asperiores porro cumque animi. Excepturi accusantium earum ullam eaque laboriosam! Labore at culpa voluptatibus est dolor.</p>
+            </div>
+            <div class="pricing-plans__rates">
+                <div class="rates-item">
+                    <h4 class="rates-item__title">Starter</h4>
+                    <p class="rates-item__text-block">up to 3 users</p>
+                    <p class="rates-item__price"><span class="rates__item__currency">$</span>129</p>
+                    <p class="rates-item__subtitle">per month</p>
+                    <button class="rates-item__order-btn">Order</button>
+                </div>
+                <div class="rates-item rates-item--pink">
+                    <h4 class="rates-item__title">Starter</h4>
+                    <p class="rates-item__text-block">up to 3 users</p>
+                    <p class="rates-item__price"><span class="rates__item__currency">$</span>129</p>
+                    <p class="rates-item__subtitle">per month</p>
+                    <button class="rates-item__order-btn">Order</button>
+                </div>
+                <div class="rates-item">
+                    <h4 class="rates-item__title">Starter</h4>
+                    <p class="rates-item__text-block">up to 3 users</p>
+                    <p class="rates-item__price"><span class="rates__item__currency">$</span>129</p>
+                    <p class="rates-item__subtitle">per month</p>
+                    <button class="rates-item__order-btn">Order</button>
+                </div>
+            </div>
+        </div>
+    </section>
     
+    <!-- Четвертый блок -->
+
+    <footer class="footer-menu">
+        <div class="footer-menu__wrapper wrap">
+            <div class="footer-menu__logo">
+                <img src="./assets/icon/logo-gray.svg" alt="footer logo">
+                <p></p>
+            </div>
+            <ul class="footer-menu__list">
+                <li class="foote-menu__item">
+                    <a href="" class="footer-menu__link">Product</a>
+                </li>
+                <li class="foote-menu__item">
+                    <a href="" class="footer-menu__link">Pricing Plans</a>
+                </li>
+                <li class="foote-menu__item">
+                    <a href="" class="footer-menu__link">FAQ</a>
+                </li>
+                <li class="foote-menu__item">
+                    <a href="" class="footer-menu__link">Blog</a>
+                </li>
+            </ul>
+            <div class="footer-menu__links">
+                <a href="">
+                    <img class="footer-menu__link-icon" width="10" height="20" src="./assets/icon/Facebook.svg" alt="facebook">
+                </a>
+                <a href="">
+                    <img class="footer-menu__link-icon" width="25" height="20" src="./assets/icon/Twitter.svg" alt="twitter">
+                </a>
+                <a href="">
+                    <img class="footer-menu__link-icon" width="21" height="20" src="./assets/icon/Instagram.svg" alt="instagram">
+                </a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

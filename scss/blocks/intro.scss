@@ -134,7 +134,12 @@
     }
 
     &__btn {
-         @include btn(transparent, $pink, 68px, #fff, 16px, 15px, 80px);
+        @include btn(transparent, $pink, 68px, #fff, 16px, 15px, 80px);
+        transition: all 0.5s;
+
+        &:hover {
+            @include btn($pink, transparent, 68px, #fff, 16px, 15px, 80px);
+        }
     }
 
     &__pictures {
